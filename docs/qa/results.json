@@ -1,0 +1,665 @@
+{
+  "generatedAt": "2026-11-02T09:39:48.912Z",
+  "base": "http://127.0.0.1:8158/",
+  "widths": [
+    320,
+    375,
+    390,
+    430,
+    768,
+    1024,
+    1280,
+    1440,
+    1600
+  ],
+  "routes": [
+    "index.html",
+    "projects/tabibi.html",
+    "projects/sarh.html",
+    "projects/khafif.html",
+    "projects/masar.html",
+    "projects/wusul.html",
+    "projects/mizan.html"
+  ],
+  "responsive": [
+    {
+      "pathname": "index.html",
+      "width": 320,
+      "pass": true,
+      "issues": []
+    },
+    {
+      "pathname": "index.html",
+      "width": 375,
+      "pass": true,
+      "issues": []
+    },
+    {
+      "pathname": "index.html",
+      "width": 390,
+      "pass": true,
+      "issues": []
+    },
+    {
+      "pathname": "index.html",
+      "width": 430,
+      "pass": true,
+      "issues": []
+    },
+    {
+      "pathname": "index.html",
+      "width": 768,
+      "pass": true,
+      "issues": []
+    },
+    {
+      "pathname": "index.html",
+      "width": 1024,
+      "pass": true,
+      "issues": []
+    },
+    {
+      "pathname": "index.html",
+      "width": 1280,
+      "pass": true,
+      "issues": []
+    },
+    {
+      "pathname": "index.html",
+      "width": 1440,
+      "pass": true,
+      "issues": []
+    },
+    {
+      "pathname": "index.html",
+      "width": 1600,
+      "pass": true,
+      "issues": []
+    },
+    {
+      "pathname": "projects/tabibi.html",
+      "width": 320,
+      "pass": true,
+      "issues": []
+    },
+    {
+      "pathname": "projects/tabibi.html",
+      "width": 375,
+      "pass": true,
+      "issues": []
+    },
+    {
+      "pathname": "projects/tabibi.html",
+      "width": 390,
+      "pass": true,
+      "issues": []
+    },
+    {
+      "pathname": "projects/tabibi.html",
+      "width": 430,
+      "pass": true,
+      "issues": []
+    },
+    {
+      "pathname": "projects/tabibi.html",
+      "width": 768,
+      "pass": true,
+      "issues": []
+    },
+    {
+      "pathname": "projects/tabibi.html",
+      "width": 1024,
+      "pass": true,
+      "issues": []
+    },
+    {
+      "pathname": "projects/tabibi.html",
+      "width": 1280,
+      "pass": true,
+      "issues": []
+    },
+    {
+      "pathname": "projects/tabibi.html",
+      "width": 1440,
+      "pass": true,
+      "issues": []
+    },
+    {
+      "pathname": "projects/tabibi.html",
+      "width": 1600,
+      "pass": true,
+      "issues": []
+    },
+    {
+      "pathname": "projects/sarh.html",
+      "width": 320,
+      "pass": true,
+      "issues": []
+    },
+    {
+      "pathname": "projects/sarh.html",
+      "width": 375,
+      "pass": true,
+      "issues": []
+    },
+    {
+      "pathname": "projects/sarh.html",
+      "width": 390,
+      "pass": true,
+      "issues": []
+    },
+    {
+      "pathname": "projects/sarh.html",
+      "width": 430,
+      "pass": true,
+      "issues": []
+    },
+    {
+      "pathname": "projects/sarh.html",
+      "width": 768,
+      "pass": true,
+      "issues": []
+    },
+    {
+      "pathname": "projects/sarh.html",
+      "width": 1024,
+      "pass": true,
+      "issues": []
+    },
+    {
+      "pathname": "projects/sarh.html",
+      "width": 1280,
+      "pass": true,
+      "issues": []
+    },
+    {
+      "pathname": "projects/sarh.html",
+      "width": 1440,
+      "pass": true,
+      "issues": []
+    },
+    {
+      "pathname": "projects/sarh.html",
+      "width": 1600,
+      "pass": true,
+      "issues": []
+    },
+    {
+      "pathname": "projects/khafif.html",
+      "width": 320,
+      "pass": true,
+      "issues": []
+    },
+    {
+      "pathname": "projects/khafif.html",
+      "width": 375,
+      "pass": true,
+      "issues": []
+    },
+    {
+      "pathname": "projects/khafif.html",
+      "width": 390,
+      "pass": true,
+      "issues": []
+    },
+    {
+      "pathname": "projects/khafif.html",
+      "width": 430,
+      "pass": true,
+      "issues": []
+    },
+    {
+      "pathname": "projects/khafif.html",
+      "width": 768,
+      "pass": true,
+      "issues": []
+    },
+    {
+      "pathname": "projects/khafif.html",
+      "width": 1024,
+      "pass": true,
+      "issues": []
+    },
+    {
+      "pathname": "projects/khafif.html",
+      "width": 1280,
+      "pass": true,
+      "issues": []
+    },
+    {
+      "pathname": "projects/khafif.html",
+      "width": 1440,
+      "pass": true,
+      "issues": []
+    },
+    {
+      "pathname": "projects/khafif.html",
+      "width": 1600,
+      "pass": true,
+      "issues": []
+    },
+    {
+      "pathname": "projects/masar.html",
+      "width": 320,
+      "pass": true,
+      "issues": []
+    },
+    {
+      "pathname": "projects/masar.html",
+      "width": 375,
+      "pass": true,
+      "issues": []
+    },
+    {
+      "pathname": "projects/masar.html",
+      "width": 390,
+      "pass": true,
+      "issues": []
+    },
+    {
+      "pathname": "projects/masar.html",
+      "width": 430,
+      "pass": true,
+      "issues": []
+    },
+    {
+      "pathname": "projects/masar.html",
+      "width": 768,
+      "pass": true,
+      "issues": []
+    },
+    {
+      "pathname": "projects/masar.html",
+      "width": 1024,
+      "pass": true,
+      "issues": []
+    },
+    {
+      "pathname": "projects/masar.html",
+      "width": 1280,
+      "pass": true,
+      "issues": []
+    },
+    {
+      "pathname": "projects/masar.html",
+      "width": 1440,
+      "pass": true,
+      "issues": []
+    },
+    {
+      "pathname": "projects/masar.html",
+      "width": 1600,
+      "pass": true,
+      "issues": []
+    },
+    {
+      "pathname": "projects/wusul.html",
+      "width": 320,
+      "pass": true,
+      "issues": []
+    },
+    {
+      "pathname": "projects/wusul.html",
+      "width": 375,
+      "pass": true,
+      "issues": []
+    },
+    {
+      "pathname": "projects/wusul.html",
+      "width": 390,
+      "pass": true,
+      "issues": []
+    },
+    {
+      "pathname": "projects/wusul.html",
+      "width": 430,
+      "pass": true,
+      "issues": []
+    },
+    {
+      "pathname": "projects/wusul.html",
+      "width": 768,
+      "pass": true,
+      "issues": []
+    },
+    {
+      "pathname": "projects/wusul.html",
+      "width": 1024,
+      "pass": true,
+      "issues": []
+    },
+    {
+      "pathname": "projects/wusul.html",
+      "width": 1280,
+      "pass": true,
+      "issues": []
+    },
+    {
+      "pathname": "projects/wusul.html",
+      "width": 1440,
+      "pass": true,
+      "issues": []
+    },
+    {
+      "pathname": "projects/wusul.html",
+      "width": 1600,
+      "pass": true,
+      "issues": []
+    },
+    {
+      "pathname": "projects/mizan.html",
+      "width": 320,
+      "pass": true,
+      "issues": []
+    },
+    {
+      "pathname": "projects/mizan.html",
+      "width": 375,
+      "pass": true,
+      "issues": []
+    },
+    {
+      "pathname": "projects/mizan.html",
+      "width": 390,
+      "pass": true,
+      "issues": []
+    },
+    {
+      "pathname": "projects/mizan.html",
+      "width": 430,
+      "pass": true,
+      "issues": []
+    },
+    {
+      "pathname": "projects/mizan.html",
+      "width": 768,
+      "pass": true,
+      "issues": []
+    },
+    {
+      "pathname": "projects/mizan.html",
+      "width": 1024,
+      "pass": true,
+      "issues": []
+    },
+    {
+      "pathname": "projects/mizan.html",
+      "width": 1280,
+      "pass": true,
+      "issues": []
+    },
+    {
+      "pathname": "projects/mizan.html",
+      "width": 1440,
+      "pass": true,
+      "issues": []
+    },
+    {
+      "pathname": "projects/mizan.html",
+      "width": 1600,
+      "pass": true,
+      "issues": []
+    }
+  ],
+  "interactions": [
+    {
+      "name": "skip link receives the first Tab and navigates to main",
+      "pass": true
+    },
+    {
+      "name": "mobile menu opens by keyboard and Escape restores focus",
+      "pass": true
+    },
+    {
+      "name": "mobile menu closes after navigation and outside click",
+      "pass": true
+    },
+    {
+      "name": "theme control updates semantics and survives reload",
+      "pass": true
+    },
+    {
+      "name": "system color scheme is respected without a saved preference",
+      "pass": true
+    },
+    {
+      "name": "copy email reports a useful status",
+      "pass": true
+    },
+    {
+      "name": "reduced motion disables animation and smooth scrolling",
+      "pass": true
+    }
+  ],
+  "screenshots": [
+    {
+      "filename": "homepage-light-1440.png",
+      "pathname": "index.html",
+      "width": 1440,
+      "theme": "light",
+      "selector": null,
+      "height": 8619
+    },
+    {
+      "filename": "homepage-light-390.png",
+      "pathname": "index.html",
+      "width": 390,
+      "theme": "light",
+      "selector": null,
+      "height": 11205
+    },
+    {
+      "filename": "homepage-dark-1440.png",
+      "pathname": "index.html",
+      "width": 1440,
+      "theme": "dark",
+      "selector": null,
+      "height": 8619
+    },
+    {
+      "filename": "homepage-dark-390.png",
+      "pathname": "index.html",
+      "width": 390,
+      "theme": "dark",
+      "selector": null,
+      "height": 11205
+    },
+    {
+      "filename": "concept-gallery-1440.png",
+      "pathname": "index.html",
+      "width": 1440,
+      "theme": "light",
+      "selector": "#concepts",
+      "height": 1310
+    },
+    {
+      "filename": "concept-gallery-390.png",
+      "pathname": "index.html",
+      "width": 390,
+      "theme": "light",
+      "selector": "#concepts",
+      "height": 2181
+    },
+    {
+      "filename": "tabibi-light-1440.png",
+      "pathname": "projects/tabibi.html",
+      "width": 1440,
+      "theme": "light",
+      "selector": null,
+      "height": 4698
+    },
+    {
+      "filename": "tabibi-light-390.png",
+      "pathname": "projects/tabibi.html",
+      "width": 390,
+      "theme": "light",
+      "selector": null,
+      "height": 5027
+    },
+    {
+      "filename": "sarh-light-1440.png",
+      "pathname": "projects/sarh.html",
+      "width": 1440,
+      "theme": "light",
+      "selector": null,
+      "height": 5835
+    },
+    {
+      "filename": "sarh-light-390.png",
+      "pathname": "projects/sarh.html",
+      "width": 390,
+      "theme": "light",
+      "selector": null,
+      "height": 6504
+    },
+    {
+      "filename": "khafif-light-1440.png",
+      "pathname": "projects/khafif.html",
+      "width": 1440,
+      "theme": "light",
+      "selector": null,
+      "height": 4698
+    },
+    {
+      "filename": "khafif-light-390.png",
+      "pathname": "projects/khafif.html",
+      "width": 390,
+      "theme": "light",
+      "selector": null,
+      "height": 5238
+    },
+    {
+      "filename": "masar-light-1440.png",
+      "pathname": "projects/masar.html",
+      "width": 1440,
+      "theme": "light",
+      "selector": null,
+      "height": 5950
+    },
+    {
+      "filename": "masar-light-390.png",
+      "pathname": "projects/masar.html",
+      "width": 390,
+      "theme": "light",
+      "selector": null,
+      "height": 6412
+    },
+    {
+      "filename": "wusul-light-1440.png",
+      "pathname": "projects/wusul.html",
+      "width": 1440,
+      "theme": "light",
+      "selector": null,
+      "height": 6117
+    },
+    {
+      "filename": "wusul-light-390.png",
+      "pathname": "projects/wusul.html",
+      "width": 390,
+      "theme": "light",
+      "selector": null,
+      "height": 6600
+    },
+    {
+      "filename": "mizan-light-1440.png",
+      "pathname": "projects/mizan.html",
+      "width": 1440,
+      "theme": "light",
+      "selector": null,
+      "height": 6045
+    },
+    {
+      "filename": "mizan-light-390.png",
+      "pathname": "projects/mizan.html",
+      "width": 390,
+      "theme": "light",
+      "selector": null,
+      "height": 6656
+    },
+    {
+      "filename": "tabibi-dark-1440.png",
+      "pathname": "projects/tabibi.html",
+      "width": 1440,
+      "theme": "dark",
+      "selector": null,
+      "height": 4698
+    },
+    {
+      "filename": "tabibi-dark-390.png",
+      "pathname": "projects/tabibi.html",
+      "width": 390,
+      "theme": "dark",
+      "selector": null,
+      "height": 5027
+    },
+    {
+      "filename": "masar-dark-1440.png",
+      "pathname": "projects/masar.html",
+      "width": 1440,
+      "theme": "dark",
+      "selector": null,
+      "height": 5950
+    },
+    {
+      "filename": "masar-dark-390.png",
+      "pathname": "projects/masar.html",
+      "width": 390,
+      "theme": "dark",
+      "selector": null,
+      "height": 6412
+    }
+  ],
+  "artwork": [
+    {
+      "filename": "khafif-screens.png",
+      "pathname": "assets/projects/khafif-screens.svg",
+      "width": 1440,
+      "height": 960
+    },
+    {
+      "filename": "masar-overview.png",
+      "pathname": "assets/concepts/masar-overview.svg",
+      "width": 1440,
+      "height": 960
+    },
+    {
+      "filename": "masar-flow.png",
+      "pathname": "assets/concepts/masar-flow.svg",
+      "width": 1440,
+      "height": 960
+    },
+    {
+      "filename": "wusul-overview.png",
+      "pathname": "assets/concepts/wusul-overview.svg",
+      "width": 1440,
+      "height": 960
+    },
+    {
+      "filename": "wusul-flow.png",
+      "pathname": "assets/concepts/wusul-flow.svg",
+      "width": 1440,
+      "height": 960
+    },
+    {
+      "filename": "mizan-overview.png",
+      "pathname": "assets/concepts/mizan-overview.svg",
+      "width": 1440,
+      "height": 960
+    },
+    {
+      "filename": "mizan-flow.png",
+      "pathname": "assets/concepts/mizan-flow.svg",
+      "width": 1440,
+      "height": 960
+    }
+  ],
+  "summary": {
+    "responsiveChecks": 63,
+    "responsiveFailures": 0,
+    "interactionChecks": 7,
+    "interactionFailures": 0,
+    "screenshots": 22,
+    "artwork": 7,
+    "fatal": false
+  }
+}

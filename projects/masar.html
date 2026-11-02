@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Masar — Offline learning Concept Project | Abdallah Almnaama</title>
+  <meta name="description" content="Masar is a self-initiated Concept Project exploring offline-first study planning, local progress, and understandable synchronization states.">
+  <meta name="theme-color" content="#edf1ef"><link rel="canonical" href="https://abdallah4abood-spec.github.io/portfolio-UI-UX-Designer/projects/masar.html">
+  <meta property="og:type" content="article"><meta property="og:title" content="Masar — Offline learning Concept Project"><meta property="og:description" content="An independent design exploration of offline-ready learning and explicit sync states."><meta property="og:image" content="https://abdallah4abood-spec.github.io/portfolio-UI-UX-Designer/assets/og-image.png"><meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml"><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,600;12..96,700&family=IBM+Plex+Mono:wght@400;500&family=Noto+Sans+Arabic:wght@400;600;700&family=Onest:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <script>try{var t=localStorage.getItem('theme')||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light');document.documentElement.dataset.theme=t}catch(e){}document.documentElement.classList.add('js')</script>
+  <link rel="stylesheet" href="../css/style.css"><script src="../js/main.js" defer></script>
+</head>
+<body id="top">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header"><div class="shell header-inner"><a class="brand" href="../index.html" aria-label="Abdallah Almnaama, home"><span class="brand-mark" aria-hidden="true">AA</span><span class="brand-copy"><strong>Abdallah Almnaama</strong><small>Designer + Frontend Developer</small></span></a><nav class="site-nav" id="nav" aria-label="Primary navigation"><a href="../index.html#work" aria-current="true">Work</a><a href="../index.html#services">Services</a><a href="../index.html#process">Process</a><a href="../index.html#about">About</a><a href="../index.html#contact">Contact</a></nav><button class="icon-button" id="theme" type="button" aria-label="Switch to dark theme" aria-pressed="false"><svg class="moon-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 14.5A8 8 0 0 1 9.5 4a8 8 0 1 0 10.5 10.5z"/></svg><svg class="sun-icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg></button><button class="icon-button menu-toggle" id="menu" type="button" aria-label="Open navigation" aria-expanded="false" aria-controls="nav"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button></div></header>
+
+  <main id="main"><article>
+    <header class="shell case-hero">
+      <p class="breadcrumb"><a href="../index.html#concepts">Independent explorations</a> / Offline learning</p>
+      <div class="case-heading"><div><p class="eyebrow">Concept Project · Self-initiated</p><h1>Masar</h1><p class="case-kicker">A study plan that stays understandable when the connection does not.</p></div><dl class="case-meta"><div><dt>Project type</dt><dd>Speculative product design</dd></div><div><dt>Focus</dt><dd>Offline UX, mobile learning, status communication</dd></div><div><dt>Artifacts</dt><dd>Product brief, flow, interface screens</dd></div><div><dt>Evidence</dt><dd>Design references; no user-testing claims</dd></div></dl></div>
+      <figure class="case-cover"><img src="../assets/concepts/masar-overview.svg" width="1440" height="960" alt="Masar Concept Project mobile screens for a weekly plan, downloaded lesson, and synchronization center"><figcaption class="figure-caption"><span>Original concept interface screens · illustrative content</span><span>Not a released product</span></figcaption></figure>
+    </header>
+
+    <div class="shell case-body">
+      <section class="case-section"><h2>The design brief</h2><div class="case-content">
+        <p>Masar explores how a learner with intermittent connectivity might download a weekly plan, continue working locally, and understand which changes still need to synchronize.</p>
+        <p>The concept deliberately avoids trying to become a complete learning-management system. Its core job is narrower: <strong>make continuity and status clear across changes in connectivity.</strong></p>
+        <div class="boundary-note"><strong>Concept Project boundary</strong><p>No client, learners, teachers, research sessions, downloads, learning outcomes, or adoption are claimed. Course names, progress, and messages in the screens are illustrative.</p></div>
+      </div></section>
+
+      <section class="case-section"><h2>Source-informed observations</h2><div class="case-content">
+        <p>The web.dev Offline UX guidelines recommend informing people promptly when connection state changes, using plain language, making cached content visible, and supporting offline actions or clear save-for-offline choices.</p>
+        <p>WCAG’s status-message guidance adds an accessibility requirement: important updates should be communicated without unexpectedly moving focus. Together, these references shift the concept from a simple offline banner toward a visible state model.</p>
+      </div></section>
+
+      <section class="case-section"><h2>Assumptions</h2><div class="case-content">
+        <ul><li>A learner already has a weekly plan; Masar does not need to author the curriculum.</li><li>Selected lessons can be stored locally on the learner’s device.</li><li>Progress made offline can be queued, but conflicts may still require a clear resolution.</li><li>Download size, recency, and sync state matter as much as the visual completeness of a lesson card.</li></ul>
+        <p>These are working assumptions used to shape the design, not findings from user research.</p>
+      </div></section>
+
+      <section class="case-section"><h2>Proposed experience</h2><div class="case-content">
+        <div class="decision-list">
+          <article class="decision"><span class="decision-index">A</span><div><h3>Downloaded is a visible content state</h3><p>Lesson cards distinguish available-online from available-offline content, so a learner does not have to discover availability after losing connectivity.</p></div></article>
+          <article class="decision"><span class="decision-index">B</span><div><h3>Local progress remains legitimate</h3><p>The interface says when work is saved on the device instead of implying that every completed action has already reached a server.</p></div></article>
+          <article class="decision"><span class="decision-index">C</span><div><h3>Sync is a reviewable queue</h3><p>A sync center groups pending changes, current activity, and failures. It provides a next action without treating every offline moment as an error.</p></div></article>
+        </div>
+      </div></section>
+
+      <section class="case-section"><h2>Flow &amp; state system</h2><div class="case-content">
+        <p>The second proof sheet connects the main flow—download, work offline, synchronize—with the visual language for online, offline, and syncing states.</p>
+        <figure class="case-cover"><img src="../assets/concepts/masar-flow.svg" width="1440" height="960" loading="lazy" alt="Masar concept flow showing download for offline, local work, sync changes, and a state matrix"><figcaption class="figure-caption"><span>Concept flow and state matrix</span><span>Proposed decisions, not validated behavior</span></figcaption></figure>
+      </div></section>
+
+      <section class="case-section"><h2>Accessibility &amp; content choices</h2><div class="case-content">
+        <ul><li>Use text and icons together; never rely on a colored dot alone for sync state.</li><li>Announce completed downloads and sync results through appropriate status regions.</li><li>Keep download, retry, and lesson actions comfortably touchable.</li><li>Use direct language such as “Saved on this device” rather than technical synchronization jargon.</li><li>Preserve the learner’s place when connectivity changes; do not unexpectedly navigate or move focus.</li></ul>
+      </div></section>
+
+      <section class="case-section"><h2>What to validate next</h2><div class="case-content">
+        <p>A future research round should test whether learners understand the difference between downloaded, saved locally, and synchronized. It should also examine download-size comprehension, conflict recovery, and whether the sync center creates unnecessary anxiety.</p>
+        <p>Until that happens, the screens remain a reasoned design proposal rather than evidence of usability.</p>
+      </div></section>
+
+      <section class="case-section"><h2>Research &amp; Design References</h2><div class="case-content">
+        <p>These sources informed interaction principles. They did not provide users, validation, or product-outcome data for Masar.</p>
+        <ul class="reference-list">
+          <li><a href="https://web.dev/articles/offline-ux-design-guidelines" target="_blank" rel="noopener">web.dev — Offline UX design guidelines</a><span>Connection-state communication and offline actions</span></li>
+          <li><a href="https://www.w3.org/WAI/WCAG22/Understanding/status-messages.html" target="_blank" rel="noopener">W3C — Understanding Status Messages</a><span>Accessible feedback without focus changes</span></li>
+          <li><a href="https://developer.android.com/topic/architecture/data-layer/offline-first" target="_blank" rel="noopener">Android — Build an offline-first app</a><span>Local-data and offline-first architecture background</span></li>
+        </ul>
+      </div></section>
+    </div>
+    <a class="shell next-project" href="wusul.html"><span>Next Concept Project</span><strong>Wusul ↗</strong></a>
+  </article></main>
+  <footer class="site-footer"><div class="shell"><div class="footer-grid"><div><p><strong>Abdallah Almnaama</strong><br>UI/UX Designer &amp; Frontend Developer</p></div><ul class="footer-links" aria-label="Footer navigation"><li><a href="../index.html#concepts">Concepts</a></li><li><a href="../index.html#about">About</a></li><li><a href="../index.html#contact">Contact</a></li></ul><ul class="footer-links" aria-label="Social links"><li><a href="mailto:abdallah4abood@gmail.com">Email</a></li><li><a href="https://www.linkedin.com/in/abdallah-almnaama-7575a737b/" target="_blank" rel="noopener">LinkedIn</a></li><li><a href="https://github.com/abdallah4abood-spec" target="_blank" rel="noopener">GitHub</a></li></ul></div><div class="footer-bottom"><span>© <span id="year">2026</span> Abdallah Almnaama</span><span>Masar · Concept Project</span></div></div></footer>
+</body>
+</html>

@@ -1,0 +1,148 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 960" width="1440" height="960" role="img" aria-labelledby="title desc">
+  <title id="title">Wusul accessible error recovery and answer review — concept flow</title>
+  <desc id="desc">Concept design visualization showing an error summary that links to a postcode field, a specific inline error with retained input, a check-your-answers page with Change links, and a confirmation with a reference number.</desc>
+  <defs>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%">
+      <feDropShadow dx="0" dy="9" stdDeviation="15" flood-color="#18334B" flood-opacity="0.10"/>
+    </filter>
+    <style>
+      text { font-family: Arial, Helvetica, sans-serif; }
+      .navy { fill: #18334B; }
+      .teal { fill: #197565; }
+      .muted { fill: #62727B; }
+      .white { fill: #FFFFFF; }
+      .error { fill: #A62B22; }
+      .label { font-size: 15px; font-weight: 700; letter-spacing: 1.4px; }
+      .small { font-size: 16px; }
+      .body { font-size: 19px; }
+    </style>
+  </defs>
+
+  <rect width="1440" height="960" fill="#F8F6EF"/>
+  <rect x="0" y="0" width="1440" height="154" fill="#FFFFFF"/>
+  <rect x="0" y="0" width="14" height="154" fill="#F4C95D"/>
+  <path d="M1388 154V48" stroke="#F4C95D" stroke-width="18" opacity="0.65"/>
+
+  <g aria-label="Proof sheet heading">
+    <rect x="60" y="38" width="52" height="52" rx="14" fill="#18334B"/>
+    <path d="M73 54l9 21 9-14 9 14 8-21" fill="none" stroke="#F4C95D" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="128" y="57" class="label teal">WUSUL / RECOVERY AND REVIEW</text>
+    <text x="128" y="98" font-size="34" font-weight="700" class="navy">Explain the problem, preserve the answer, make the next step obvious.</text>
+    <rect x="1110" y="20" width="270" height="38" rx="19" fill="#18334B"/>
+    <text x="1245" y="44" text-anchor="middle" font-size="15" font-weight="700" letter-spacing="1.1" class="white">CONCEPT · ILLUSTRATIVE DATA</text>
+    <text x="60" y="135" font-size="19" class="muted">Accessible error recovery connects the summary, the field and the correction.</text>
+  </g>
+
+  <g aria-label="Screen labels">
+    <text x="60" y="190" class="label teal">01 · ERROR RECOVERY</text>
+    <text x="710" y="190" class="label teal">02 · CHECK ANSWERS</text>
+    <text x="710" y="632" class="label teal">03 · CONFIRMATION</text>
+  </g>
+
+  <!-- Error recovery -->
+  <g aria-label="Accessible error recovery screen">
+    <rect x="60" y="210" width="620" height="675" rx="26" fill="#FFFFFF" filter="url(#shadow)"/>
+    <rect x="60" y="210" width="620" height="68" rx="26" fill="#18334B"/>
+    <rect x="60" y="252" width="620" height="26" fill="#18334B"/>
+    <text x="88" y="254" font-size="25" font-weight="700" class="white">wusul</text>
+    <circle cx="171" cy="244" r="5" fill="#F4C95D"/>
+    <text x="650" y="250" text-anchor="end" font-size="16" font-weight="700" fill="#F4C95D">Save and exit</text>
+
+    <path d="M103 302l-9 9 9 9" fill="none" stroke="#197565" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="125" y="317" font-size="16" font-weight="700" class="teal">Back</text>
+    <text x="350" y="317" font-size="16" class="muted">Personal details · Address</text>
+
+    <rect x="88" y="343" width="564" height="132" rx="14" fill="#FCEDEA" stroke="#A62B22" stroke-width="2"/>
+    <rect x="88" y="343" width="7" height="132" rx="3.5" fill="#A62B22"/>
+    <circle cx="122" cy="376" r="16" fill="#A62B22"/>
+    <text x="122" y="383" text-anchor="middle" font-size="21" font-weight="700" class="white">!</text>
+    <text x="151" y="382" font-size="23" font-weight="700" class="error">There is a problem</text>
+    <text x="116" y="419" font-size="18" font-weight="700" class="error">Enter a full postcode</text>
+    <line x1="116" y1="425" x2="298" y2="425" stroke="#A62B22" stroke-width="1.5"/>
+    <text x="116" y="452" font-size="15" class="muted">On load, focus moves to this summary.</text>
+    <rect x="548" y="358" width="82" height="26" rx="13" fill="#FFFFFF"/>
+    <text x="589" y="376" text-anchor="middle" font-size="13" font-weight="700" class="error">1 · SUMMARY</text>
+
+    <text x="88" y="523" font-size="22" font-weight="700" class="navy">What is your address?</text>
+    <text x="88" y="558" font-size="18" font-weight="700" class="navy">Street address</text>
+    <rect x="88" y="572" width="564" height="54" rx="10" fill="#FFFFFF" stroke="#7B898F" stroke-width="2"/>
+    <text x="108" y="606" font-size="19" class="navy">24 Atlas Street</text>
+    <rect x="530" y="584" width="102" height="28" rx="14" fill="#EEF5F1"/>
+    <text x="581" y="603" text-anchor="middle" font-size="13" font-weight="700" class="teal">INPUT RETAINED</text>
+
+    <text x="88" y="670" font-size="18" font-weight="700" class="navy">Postcode</text>
+    <rect x="88" y="685" width="564" height="58" rx="10" fill="#FFFBFA" stroke="#A62B22" stroke-width="3"/>
+    <text x="108" y="722" font-size="20" class="navy">E1 6</text>
+    <rect x="122" y="700" width="2" height="28" fill="#18334B"/>
+    <circle cx="627" cy="714" r="13" fill="#A62B22"/>
+    <text x="627" y="720" text-anchor="middle" font-size="17" font-weight="700" class="white">!</text>
+    <text x="88" y="772" font-size="17" font-weight="700" class="error">Error: Enter a full postcode, for example E1 6AN.</text>
+    <rect x="530" y="652" width="122" height="26" rx="13" fill="#FCEDEA"/>
+    <text x="591" y="670" text-anchor="middle" font-size="13" font-weight="700" class="error">2 · LINKED FIELD</text>
+
+    <path d="M310 426C350 454 585 461 591 642" fill="none" stroke="#A62B22" stroke-width="2" stroke-dasharray="5 5"/>
+    <path d="M585 632l6 10 6-10" fill="none" stroke="#A62B22" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <rect x="88" y="804" width="150" height="52" rx="11" fill="#197565"/>
+    <text x="163" y="837" text-anchor="middle" font-size="19" font-weight="700" class="white">Continue</text>
+    <text x="258" y="826" font-size="15" class="muted">The summary link moves focus</text>
+    <text x="258" y="848" font-size="15" class="muted">to the postcode field.</text>
+  </g>
+
+  <!-- Check answers -->
+  <g aria-label="Check your answers with Change links">
+    <rect x="710" y="210" width="670" height="400" rx="26" fill="#FFFFFF" filter="url(#shadow)"/>
+    <rect x="710" y="210" width="670" height="64" rx="26" fill="#18334B"/>
+    <rect x="710" y="248" width="670" height="26" fill="#18334B"/>
+    <text x="738" y="252" font-size="24" font-weight="700" class="white">wusul</text>
+    <text x="1352" y="250" text-anchor="end" font-size="15" font-weight="700" fill="#F4C95D">Save and exit</text>
+    <text x="738" y="318" font-size="29" font-weight="700" class="navy">Check your answers</text>
+    <text x="738" y="347" font-size="17" class="muted">You can change an answer before you submit.</text>
+
+    <text x="738" y="391" font-size="18" font-weight="700" class="navy">Full name</text>
+    <text x="1000" y="391" font-size="18" class="navy">Samira Lee</text>
+    <text x="1352" y="391" text-anchor="end" font-size="17" font-weight="700" class="teal">Change</text>
+    <line x1="1310" y1="397" x2="1352" y2="397" stroke="#197565"/>
+    <line x1="738" y1="408" x2="1352" y2="408" stroke="#D8DEDC"/>
+
+    <text x="738" y="440" font-size="18" font-weight="700" class="navy">Address</text>
+    <text x="1000" y="440" font-size="18" class="navy">24 Atlas Street, E1 6AN</text>
+    <text x="1352" y="440" text-anchor="end" font-size="17" font-weight="700" class="teal">Change</text>
+    <line x1="1310" y1="446" x2="1352" y2="446" stroke="#197565"/>
+    <line x1="738" y1="457" x2="1352" y2="457" stroke="#D8DEDC"/>
+
+    <text x="738" y="489" font-size="18" font-weight="700" class="navy">Evidence</text>
+    <text x="1000" y="489" font-size="18" class="navy">4 documents added</text>
+    <text x="1352" y="489" text-anchor="end" font-size="17" font-weight="700" class="teal">Change</text>
+    <line x1="1310" y1="495" x2="1352" y2="495" stroke="#197565"/>
+    <line x1="738" y1="506" x2="1352" y2="506" stroke="#D8DEDC"/>
+
+    <rect x="738" y="529" width="188" height="52" rx="11" fill="#197565"/>
+    <text x="832" y="562" text-anchor="middle" font-size="18" font-weight="700" class="white">Accept and submit</text>
+    <text x="952" y="551" font-size="15" class="muted">Submitting sends this draft for review.</text>
+    <text x="952" y="573" font-size="15" class="muted">Your reference appears on confirmation.</text>
+  </g>
+
+  <!-- Confirmation -->
+  <g aria-label="Submission confirmation with reference number">
+    <rect x="710" y="650" width="670" height="235" rx="26" fill="#FFFFFF" filter="url(#shadow)"/>
+    <rect x="710" y="650" width="14" height="235" rx="7" fill="#197565"/>
+    <circle cx="768" cy="703" r="25" fill="#DCEBE5"/>
+    <path d="M756 703l8 8 16-19" fill="none" stroke="#197565" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="810" y="698" font-size="27" font-weight="700" class="navy">Application submitted</text>
+    <text x="810" y="727" font-size="17" class="muted">Keep the reference number for your records.</text>
+
+    <rect x="738" y="752" width="356" height="104" rx="16" fill="#FFF3CF"/>
+    <text x="760" y="781" class="label" fill="#705615">YOUR REFERENCE NUMBER</text>
+    <text x="760" y="824" font-size="34" font-weight="700" letter-spacing="2" class="navy">WUS-4M7Q-28</text>
+    <text x="760" y="847" font-size="14" class="muted">Illustrative reference · Copy or write it down</text>
+
+    <text x="1124" y="775" font-size="18" font-weight="700" class="navy">What happens next</text>
+    <text x="1124" y="805" font-size="16" class="muted">A concept service would show</text>
+    <text x="1124" y="828" font-size="16" class="muted">the review steps and contact</text>
+    <text x="1124" y="851" font-size="16" class="muted">options here.</text>
+  </g>
+
+  <text x="60" y="928" font-size="17" class="muted">Error text is specific, input is preserved, and every answer has a visible Change route.</text>
+  <text x="1380" y="928" text-anchor="end" font-size="17" font-weight="700" class="teal">CONCEPT SERVICE · NO REAL AUTHORITY REPRESENTED</text>
+</svg>

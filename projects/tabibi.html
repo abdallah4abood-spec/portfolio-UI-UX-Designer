@@ -1,40 +1,73 @@
 <!doctype html>
 <html lang="en" data-theme="light">
 <head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Tabibi case study · Abdallah Almnaama</title>
-<meta name="description" content="A health-services platform with a live demo. I worked mainly on frontend implementation, and also on API endpoints, business logic and the database schema.">
-<meta name="theme-color" content="#F4F7F8">
-<meta property="og:type" content="website"><meta property="og:title" content="Tabibi case study · Abdallah Almnaama"><meta property="og:description" content="A health-services platform with a live demo. I worked mainly on frontend implementation, and also on API endpoints, business logic and the database schema.">
-<meta name="twitter:card" content="summary">
-<link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
-<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&family=Instrument+Sans:wght@400;500;600&display=swap">
-<script>try{var t=localStorage.getItem('theme')||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light');document.documentElement.dataset.theme=t}catch(e){}document.documentElement.classList.add('js')</script>
-<link rel="stylesheet" href="../css/style.css">
-<script src="../js/main.js" defer></script>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tabibi — Healthcare platform case study | Abdallah Almnaama</title>
+  <meta name="description" content="Tabibi case study: frontend implementation and full-stack contributions to an Arabic-first healthcare platform using React, C#, .NET, and PostgreSQL.">
+  <meta name="theme-color" content="#edf1ef"><link rel="canonical" href="https://abdallah4abood-spec.github.io/portfolio-UI-UX-Designer/projects/tabibi.html">
+  <meta property="og:type" content="article"><meta property="og:title" content="Tabibi — Healthcare platform case study"><meta property="og:description" content="Reading the interface, responsibility boundaries, and implementation decisions behind Tabibi."><meta property="og:image" content="https://abdallah4abood-spec.github.io/portfolio-UI-UX-Designer/assets/og-image.png"><meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml"><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,600;12..96,700&family=IBM+Plex+Mono:wght@400;500&family=Noto+Sans+Arabic:wght@400;600;700&family=Onest:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <script>try{var t=localStorage.getItem('theme')||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light');document.documentElement.dataset.theme=t}catch(e){}document.documentElement.classList.add('js')</script>
+  <link rel="stylesheet" href="../css/style.css"><script src="../js/main.js" defer></script>
 </head>
 <body id="top">
-<a class="skip" href="#main">Skip to content</a>
-<header class="hd"><div class="w">
-<a class="logo" href="../index.html">Abdallah Almnaama</a>
-<nav class="nav" id="nav" aria-label="Primary"><a href="../index.html">Home</a><a href="../index.html#work" aria-current="true">Work</a><a href="../index.html#process">Process</a><a href="../index.html#about">About</a><a href="../index.html#contact">Contact</a></nav>
-<button class="ib" id="theme" type="button" aria-label="Switch to dark theme"><svg class="moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 14.5A8 8 0 0 1 9.5 4a8 8 0 1 0 10.5 10.5z"/></svg><svg class="sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg></button>
-<button class="ib menu" id="menu" type="button" aria-label="Menu" aria-expanded="false" aria-controls="nav"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
-</div></header>
-<main id="main" class="w cs"><p class="crumb"><a href="../index.html#work">Work</a> / Tabibi</p>
-<h1>Tabibi</h1><p class="lede">Healthcare web platform</p><dl class="facts"><dt>Role</dt><dd>Co-Technical Lead & Full-Stack Engineer</dd><dt>Status</dt><dd>Live demo available</dd><dt>Stack</dt><dd>React, C#, .NET, PostgreSQL</dd><dt>Link</dt><dd><a href="https://tabibi-frontend.apps.taqat.academy/" target="_blank" rel="noopener">Live demo</a></dd></dl>
-<div class="vis web " role="img" aria-label="Conceptual interface preview"><b></b><i></i><i></i><i></i><i></i></div><small class="cap">Conceptual preview, not a screenshot.</small>
-<section><h2>Overview</h2><p>Tabibi is a health-services web platform with a live demo. It was built as a team project during a practical-training program, where I served as Co-Technical Lead.</p></section>
-<section><h2>My contributions</h2><ul><li>Frontend implementation (my main area of work)</li><li>API endpoints</li><li>Business logic</li><li>Database schema</li></ul></section>
-<section><h2>Current status</h2><ul><li>Live demo is available at the link above.</li></ul></section>
-<section><h2>What this page does not claim</h2><div class="note"><ul><li>I did not build the whole platform alone; other team members contributed.</li><li>No usage, traffic or performance figures are claimed. Any load numbers from testing came from simulated data.</li><li>No user research or usability testing results are claimed.</li></ul></div></section>
-<section><h2>Next for this case study</h2><ul><li>Add real screenshots of the screens I implemented.</li><li>Document the frontend structure and component decisions.</li></ul></section>
-<p style="margin-top:44px"><a class="btn" href="../index.html#work">Back to all work</a></p></main>
-<footer class="ft"><div class="w">
-<div><strong>Abdallah Almnaama</strong><br>UI/UX Designer &amp; Frontend Developer<br>Thanks for visiting.</div>
-<ul aria-label="Footer"><li><a href="../index.html#work">Work</a></li><li><a href="../index.html#process">Process</a></li><li><a href="../index.html#about">About</a></li><li><a href="../index.html#contact">Contact</a></li></ul>
-<ul aria-label="Social"><li><a href="mailto:abdallah4abood@gmail.com">Email</a></li><li><a href="https://www.linkedin.com/in/abdallah-almnaama-7575a737b/" target="_blank" rel="noopener">LinkedIn</a></li><li><a href="https://github.com/abdallah4abood-spec" target="_blank" rel="noopener">GitHub</a></li></ul>
-<p>© <span id="y">2026</span> Abdallah Almnaama</p>
-</div></footer>
-</body></html>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header"><div class="shell header-inner">
+    <a class="brand" href="../index.html" aria-label="Abdallah Almnaama, home"><span class="brand-mark" aria-hidden="true">AA</span><span class="brand-copy"><strong>Abdallah Almnaama</strong><small>Designer + Frontend Developer</small></span></a>
+    <nav class="site-nav" id="nav" aria-label="Primary navigation"><a href="../index.html#work" aria-current="true">Work</a><a href="../index.html#services">Services</a><a href="../index.html#process">Process</a><a href="../index.html#about">About</a><a href="../index.html#contact">Contact</a></nav>
+    <button class="icon-button" id="theme" type="button" aria-label="Switch to dark theme" aria-pressed="false"><svg class="moon-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 14.5A8 8 0 0 1 9.5 4a8 8 0 1 0 10.5 10.5z"/></svg><svg class="sun-icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg></button>
+    <button class="icon-button menu-toggle" id="menu" type="button" aria-label="Open navigation" aria-expanded="false" aria-controls="nav"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
+  </div></header>
+
+  <main id="main">
+    <article>
+      <header class="shell case-hero">
+        <p class="breadcrumb"><a href="../index.html#work">Selected work</a> / Healthcare platform</p>
+        <div class="case-heading">
+          <div><p class="eyebrow">Team project · Live product demo</p><h1>Tabibi</h1><p class="case-kicker">An Arabic-first healthcare interface that keeps discovery, comparison, and the next booking action in view.</p></div>
+          <dl class="case-meta"><div><dt>My role</dt><dd>Co-Technical Lead &amp; Full-Stack Engineer</dd></div><div><dt>Primary focus</dt><dd>Frontend implementation</dd></div><div><dt>Technology</dt><dd>React, C#, .NET, PostgreSQL</dd></div><div><dt>Status</dt><dd>Live demo available</dd></div></dl>
+        </div>
+        <figure class="case-cover"><img src="../assets/projects/tabibi-doctors.webp" width="1440" height="1000" alt="Genuine public Tabibi doctors page in Arabic with search, specialty filters, doctor cards, prices, and booking buttons"><figcaption class="figure-caption"><span>Genuine capture from the public product demo</span><span>Arabic / RTL · desktop</span></figcaption></figure>
+      </header>
+
+      <div class="shell case-body">
+        <section class="case-section"><h2>Context</h2><div class="case-content">
+          <p>Tabibi is a health-services web platform built as a <strong>team project during a practical-training program</strong>. The public experience helps people browse doctors, understand essential professional information, and move toward booking.</p>
+          <p>The interface shown here is not a reconstructed portfolio mockup. It is a capture of the running Arabic/RTL product, including its public doctor listings and demo content.</p>
+          <div class="actions"><a class="button button--primary" href="https://tabibi-frontend.apps.taqat.academy/" target="_blank" rel="noopener">Open the live demo</a></div>
+        </div></section>
+
+        <section class="case-section"><h2>Responsibility boundary</h2><div class="case-content">
+          <p>I served as Co-Technical Lead and worked <strong>primarily on frontend implementation</strong>. My contributions also included API endpoints, business logic, and database-schema work.</p>
+          <ul><li>Translate product screens into responsive frontend interfaces.</li><li>Connect interface behavior with application data and API behavior.</li><li>Contribute to selected server-side endpoints, business logic, and schema decisions.</li></ul>
+          <div class="boundary-note"><strong>Team attribution matters.</strong><p>I did not build the entire platform independently. Other team members contributed to the product, and this case study does not assign every visual or product decision to me.</p></div>
+        </div></section>
+
+        <section class="case-section"><h2>Reading the interface</h2><div class="case-content">
+          <p>The public doctors page demonstrates several useful product decisions. These are observations about the implemented interface, not claims of measured user outcomes.</p>
+          <div class="decision-list">
+            <article class="decision"><span class="decision-index">A</span><div><h3>Discovery controls stay close to results</h3><p>Search and specialty controls sit directly above the listings, keeping the relationship between refining a query and seeing results spatially clear.</p></div></article>
+            <article class="decision"><span class="decision-index">B</span><div><h3>Repeated cards support comparison</h3><p>Each card uses a consistent information sequence for specialty, experience, location, price, and availability. Repetition reduces the work of comparing one doctor with another.</p></div></article>
+            <article class="decision"><span class="decision-index">C</span><div><h3>The primary action remains explicit</h3><p>A dedicated booking button appears within every result rather than hiding the next step inside a secondary menu.</p></div></article>
+          </div>
+        </div></section>
+
+        <section class="case-section"><h2>Implementation notes</h2><div class="case-content">
+          <p>The technology stack combines a React frontend with C#/.NET services and PostgreSQL. Working across those boundaries gave the frontend work a practical connection to data shape, API behavior, and application logic.</p>
+          <ul class="pill-list" aria-label="Technology stack"><li>React</li><li>C#</li><li>.NET</li><li>PostgreSQL</li></ul>
+          <p>The important lesson for my practice is the value of understanding both sides of an interface contract: what the screen needs to communicate, and what the underlying system can reliably provide.</p>
+        </div></section>
+
+        <section class="case-section"><h2>Current limits &amp; next steps</h2><div class="case-content">
+          <p>The live demo is available, but this portfolio does not claim adoption, traffic, revenue, or performance outcomes. Earlier large-volume figures associated with testing referred to simulated data, not real patient activity.</p>
+          <p>No user-research or usability-testing results are claimed here. A future iteration should document additional implemented views, responsive behavior, loading and error states, and verified accessibility findings.</p>
+        </div></section>
+      </div>
+      <a class="shell next-project" href="sarh.html"><span>Next case study</span><strong>Sarh <span lang="ar" dir="rtl">صرح</span> ↗</strong></a>
+    </article>
+  </main>
+
+  <footer class="site-footer"><div class="shell"><div class="footer-grid"><div><p><strong>Abdallah Almnaama</strong><br>UI/UX Designer &amp; Frontend Developer</p></div><ul class="footer-links" aria-label="Footer navigation"><li><a href="../index.html#work">Work</a></li><li><a href="../index.html#about">About</a></li><li><a href="../index.html#contact">Contact</a></li></ul><ul class="footer-links" aria-label="Social links"><li><a href="mailto:abdallah4abood@gmail.com">Email</a></li><li><a href="https://www.linkedin.com/in/abdallah-almnaama-7575a737b/" target="_blank" rel="noopener">LinkedIn</a></li><li><a href="https://github.com/abdallah4abood-spec" target="_blank" rel="noopener">GitHub</a></li></ul></div><div class="footer-bottom"><span>© <span id="year">2026</span> Abdallah Almnaama</span><span>Tabibi · Team project</span></div></div></footer>
+</body>
+</html>

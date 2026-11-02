@@ -1,0 +1,170 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 960" width="1440" height="960" role="img" aria-labelledby="title desc">
+  <title id="title">Mizan variable-income planning dashboard — concept overview</title>
+  <desc id="desc">Concept design visualization of a desktop cash-flow dashboard and companion mobile view for freelancers, including available money after commitments, upcoming committed costs, illustrative income history, and a cautious scenario comparison.</desc>
+  <defs>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%">
+      <feDropShadow dx="0" dy="10" stdDeviation="16" flood-color="#35284D" flood-opacity="0.12"/>
+    </filter>
+    <style>
+      text { font-family: Arial, Helvetica, sans-serif; }
+      .aub { fill: #35284D; }
+      .violet { fill: #7563D8; }
+      .muted { fill: #746D80; }
+      .white { fill: #FFFFFF; }
+      .label { font-size: 15px; font-weight: 700; letter-spacing: 1.4px; }
+      .small { font-size: 16px; }
+      .body { font-size: 19px; }
+      .semibold { font-weight: 700; }
+    </style>
+  </defs>
+
+  <rect width="1440" height="960" fill="#F6F3FA"/>
+  <circle cx="1380" cy="70" r="180" fill="#F0EDF8"/>
+  <path d="M0 900c210-90 350-40 510 60H0z" fill="#C9E8D1" opacity="0.30"/>
+
+  <g aria-label="Proof sheet heading">
+    <rect x="60" y="40" width="52" height="52" rx="16" fill="#35284D"/>
+    <path d="M73 75h28M77 63h20M82 52h10M85 52v23" fill="none" stroke="#C9E8D1" stroke-width="3" stroke-linecap="round"/>
+    <text x="128" y="59" class="label violet">MIZAN / VARIABLE-INCOME PLANNING</text>
+    <text x="128" y="100" font-size="34" font-weight="700" class="aub">See commitments first. Explore a cautious month without false certainty.</text>
+    <rect x="1110" y="20" width="270" height="38" rx="19" fill="#35284D"/>
+    <text x="1245" y="44" text-anchor="middle" font-size="15" font-weight="700" letter-spacing="1.1" class="white">CONCEPT · ILLUSTRATIVE DATA</text>
+    <text x="60" y="139" font-size="19" class="muted">A planning dashboard for freelancers, built around explicit assumptions rather than predictions.</text>
+  </g>
+
+  <g aria-label="Screen labels">
+    <text x="60" y="190" class="label violet">01 · DESKTOP CASH-FLOW DASHBOARD</text>
+    <text x="1000" y="190" class="label violet">02 · MOBILE CAUTIOUS VIEW</text>
+  </g>
+
+  <!-- Desktop dashboard -->
+  <g aria-label="Desktop cash-flow dashboard">
+    <rect x="60" y="210" width="900" height="675" rx="26" fill="#FFFFFF" filter="url(#shadow)"/>
+    <path d="M60 236a26 26 0 0 1 26-26h848a26 26 0 0 1 26 26v42H60z" fill="#35284D"/>
+    <text x="88" y="255" font-size="26" font-weight="700" class="white">mizan</text>
+    <circle cx="177" cy="245" r="5" fill="#C9E8D1"/>
+    <text x="730" y="250" font-size="16" fill="#DCD5EA">October plan</text>
+    <rect x="835" y="228" width="100" height="32" rx="16" fill="#4A3A65"/>
+    <text x="885" y="249" text-anchor="middle" font-size="14" font-weight="700" class="white">Plan settings</text>
+
+    <rect x="60" y="278" width="160" height="607" fill="#F0EDF8"/>
+    <text x="84" y="319" class="label muted">WORKSPACE</text>
+    <rect x="76" y="340" width="128" height="44" rx="11" fill="#DED7F2"/>
+    <circle cx="95" cy="362" r="7" fill="#7563D8"/>
+    <text x="111" y="368" font-size="16" font-weight="700" class="aub">Overview</text>
+    <text x="88" y="421" font-size="16" class="muted">Income</text>
+    <text x="88" y="466" font-size="16" class="muted">Costs</text>
+    <text x="88" y="511" font-size="16" class="muted">Scenarios</text>
+    <line x1="84" y1="544" x2="196" y2="544" stroke="#D9D2E5"/>
+    <text x="88" y="578" font-size="16" class="muted">Plan notes</text>
+    <rect x="84" y="781" width="112" height="74" rx="14" fill="#FFFFFF"/>
+    <text x="96" y="807" font-size="14" font-weight="700" class="aub">Planning only</text>
+    <text x="96" y="830" font-size="13" class="muted">No connected</text>
+    <text x="96" y="848" font-size="13" class="muted">accounts.</text>
+
+    <text x="244" y="321" font-size="29" font-weight="700" class="aub">October cash-flow plan</text>
+    <text x="244" y="345" font-size="16" class="muted">Illustrative workspace · All amounts in GBP</text>
+
+    <rect x="244" y="369" width="300" height="148" rx="20" fill="#35284D"/>
+    <text x="266" y="401" font-size="16" font-weight="700" fill="#DCD5EA">AVAILABLE AFTER COMMITMENTS</text>
+    <text x="266" y="453" font-size="44" font-weight="700" class="white">£1,240</text>
+    <text x="266" y="484" font-size="16" fill="#C9E8D1">£2,600 income − £1,360 committed</text>
+    <text x="266" y="505" font-size="13" fill="#DCD5EA">Before flexible spending</text>
+
+    <rect x="560" y="369" width="376" height="148" rx="20" fill="#F8F6FB" stroke="#E0DAEA"/>
+    <text x="582" y="399" font-size="18" font-weight="700" class="aub">Upcoming committed costs</text>
+    <text x="914" y="399" text-anchor="end" font-size="16" font-weight="700" class="aub">£1,360</text>
+    <text x="582" y="430" font-size="16" class="muted">Rent · 3 Oct</text>
+    <text x="914" y="430" text-anchor="end" font-size="16" font-weight="700" class="aub">£820</text>
+    <text x="582" y="462" font-size="16" class="muted">Utilities · 8 Oct</text>
+    <text x="914" y="462" text-anchor="end" font-size="16" font-weight="700" class="aub">£180</text>
+    <text x="582" y="494" font-size="16" class="muted">Tax set-aside · 15 Oct</text>
+    <text x="914" y="494" text-anchor="end" font-size="16" font-weight="700" class="aub">£360</text>
+
+    <rect x="244" y="537" width="410" height="307" rx="20" fill="#FFFFFF" stroke="#E0DAEA"/>
+    <text x="266" y="572" font-size="20" font-weight="700" class="aub">Income history</text>
+    <rect x="491" y="550" width="141" height="28" rx="14" fill="#F0EDF8"/>
+    <text x="561" y="569" text-anchor="middle" font-size="13" font-weight="700" class="violet">ILLUSTRATIVE HISTORY</text>
+    <text x="266" y="597" font-size="15" class="muted">Sample monthly receipts, not live account data</text>
+    <line x1="280" y1="638" x2="625" y2="638" stroke="#ECE8F1"/>
+    <line x1="280" y1="686" x2="625" y2="686" stroke="#ECE8F1"/>
+    <line x1="280" y1="734" x2="625" y2="734" stroke="#ECE8F1"/>
+    <line x1="280" y1="782" x2="625" y2="782" stroke="#CFC7DC"/>
+    <text x="270" y="643" text-anchor="end" font-size="12" class="muted">£3k</text>
+    <text x="270" y="691" text-anchor="end" font-size="12" class="muted">£2k</text>
+    <text x="270" y="739" text-anchor="end" font-size="12" class="muted">£1k</text>
+    <text x="270" y="787" text-anchor="end" font-size="12" class="muted">£0</text>
+    <rect x="298" y="686" width="34" height="96" rx="7" fill="#DCD5F3"/>
+    <rect x="352" y="653" width="34" height="129" rx="7" fill="#B8A9EB"/>
+    <rect x="406" y="710" width="34" height="72" rx="7" fill="#DCD5F3"/>
+    <rect x="460" y="672" width="34" height="110" rx="7" fill="#9A88E2"/>
+    <rect x="514" y="696" width="34" height="86" rx="7" fill="#C9E8D1"/>
+    <rect x="568" y="658" width="34" height="124" rx="7" fill="#7563D8"/>
+    <g font-size="13" class="muted" text-anchor="middle">
+      <text x="315" y="807">May</text>
+      <text x="369" y="807">Jun</text>
+      <text x="423" y="807">Jul</text>
+      <text x="477" y="807">Aug</text>
+      <text x="531" y="807">Sep</text>
+      <text x="585" y="807">Oct</text>
+    </g>
+    <text x="266" y="832" font-size="13" class="muted">Variable amounts are shown without trend claims.</text>
+
+    <rect x="674" y="537" width="262" height="307" rx="20" fill="#F0EDF8"/>
+    <text x="696" y="572" font-size="20" font-weight="700" class="aub">Cautious scenario</text>
+    <text x="696" y="598" font-size="15" class="muted">Compare two planning inputs</text>
+    <text x="696" y="635" font-size="15" font-weight="700" class="muted">BASELINE MONTH</text>
+    <text x="696" y="667" font-size="24" font-weight="700" class="aub">£2,600</text>
+    <text x="914" y="667" text-anchor="end" font-size="16" class="muted">assumed income</text>
+    <line x1="696" y1="685" x2="914" y2="685" stroke="#D5CDE3"/>
+    <text x="696" y="718" font-size="15" font-weight="700" class="violet">CAUTIOUS MONTH</text>
+    <text x="696" y="750" font-size="24" font-weight="700" class="aub">£2,100</text>
+    <text x="914" y="750" text-anchor="end" font-size="16" class="muted">assumed income</text>
+    <rect x="696" y="773" width="218" height="44" rx="12" fill="#C9E8D1"/>
+    <text x="805" y="793" text-anchor="middle" font-size="14" font-weight="700" fill="#315B49">£740 AFTER COMMITMENTS</text>
+    <text x="805" y="810" text-anchor="middle" font-size="12" fill="#315B49">before flexible spending</text>
+    <text x="696" y="835" font-size="13" class="muted">A planning input, not a forecast.</text>
+
+    <text x="244" y="870" font-size="14" class="muted">Illustrative values only · Not financial advice</text>
+  </g>
+
+  <!-- Mobile view -->
+  <g aria-label="Mobile cautious cash-flow view">
+    <rect x="1000" y="210" width="380" height="675" rx="32" fill="#FFFFFF" filter="url(#shadow)"/>
+    <rect x="1000" y="210" width="380" height="6" rx="3" fill="#7563D8"/>
+    <text x="1028" y="245" font-size="15" font-weight="700" class="aub">9:41</text>
+    <path d="M1318 238h6v6h-6zM1329 235h6v9h-6zM1340 232h6v12h-6z" fill="#35284D"/>
+    <text x="1028" y="289" font-size="25" font-weight="700" class="aub">mizan</text>
+    <circle cx="1115" cy="279" r="5" fill="#C9E8D1"/>
+    <text x="1352" y="286" text-anchor="end" font-size="16" font-weight="700" class="violet">October plan</text>
+
+    <text x="1028" y="337" font-size="28" font-weight="700" class="aub">Cautious month</text>
+    <rect x="1028" y="356" width="324" height="34" rx="17" fill="#F0EDF8"/>
+    <circle cx="1048" cy="373" r="5" fill="#7563D8"/>
+    <text x="1061" y="379" font-size="15" font-weight="700" class="violet">Planning scenario · Not a forecast</text>
+
+    <rect x="1028" y="414" width="324" height="152" rx="22" fill="#35284D"/>
+    <text x="1050" y="446" font-size="14" font-weight="700" fill="#DCD5EA">AVAILABLE AFTER COMMITMENTS</text>
+    <text x="1050" y="499" font-size="42" font-weight="700" class="white">£740</text>
+    <text x="1050" y="531" font-size="16" fill="#C9E8D1">£2,100 income − £1,360 committed</text>
+    <text x="1050" y="552" font-size="13" fill="#DCD5EA">Before flexible spending</text>
+
+    <text x="1028" y="611" font-size="20" font-weight="700" class="aub">Committed costs</text>
+    <text x="1352" y="611" text-anchor="end" font-size="16" font-weight="700" class="violet">View all</text>
+    <line x1="1028" y1="628" x2="1352" y2="628" stroke="#E0DAEA"/>
+    <text x="1028" y="659" font-size="17" class="muted">Rent · 3 Oct</text>
+    <text x="1352" y="659" text-anchor="end" font-size="17" font-weight="700" class="aub">£820</text>
+    <text x="1028" y="693" font-size="17" class="muted">Utilities · 8 Oct</text>
+    <text x="1352" y="693" text-anchor="end" font-size="17" font-weight="700" class="aub">£180</text>
+    <text x="1028" y="727" font-size="17" class="muted">Tax set-aside · 15 Oct</text>
+    <text x="1352" y="727" text-anchor="end" font-size="17" font-weight="700" class="aub">£360</text>
+
+    <rect x="1028" y="755" width="324" height="56" rx="14" fill="#7563D8"/>
+    <text x="1190" y="790" text-anchor="middle" font-size="19" font-weight="700" class="white">Adjust scenario</text>
+    <rect x="1028" y="829" width="324" height="34" rx="12" fill="#F0EDF8"/>
+    <text x="1190" y="851" text-anchor="middle" font-size="14" class="muted">Illustrative values · Not financial advice</text>
+  </g>
+
+  <text x="60" y="928" font-size="17" class="muted">Cash-flow values, dates and chart amounts are illustrative planning inputs, not financial advice.</text>
+  <text x="1380" y="928" text-anchor="end" font-size="17" font-weight="700" class="violet">MIZAN / RESPONSIVE OVERVIEW</text>
+</svg>
